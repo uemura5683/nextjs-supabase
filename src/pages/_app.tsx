@@ -2,6 +2,7 @@ import { AppProps } from "next/app";
 import { supabase } from "../utils/supabase";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import '../styles/globals.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   const { pathname, push } = useRouter();
@@ -31,11 +32,21 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       {loading ? (
-        <h1>loading...</h1>
+        <>
+          <div className="wrapper">
+            <div className="wrapperinner">
+              <h1>loading...</h1>
+            </div>
+          </div>
+        </>
       ) : (
         <>
-          <button onClick={() => supabase.auth.signOut()}>ログアウト</button>
-          <Component {...pageProps} />
+          <div className="wrapper">
+            <div className="wrapperinner">
+              <Component {...pageProps} />
+              <button className="logoutbtn" onClick={() => supabase.auth.signOut()}>ログアウト</button>
+            </div>
+          </div>
         </>
       )}
     </>

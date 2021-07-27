@@ -15,6 +15,8 @@ const Signup: NextPage = () => {
     supabase.auth.signUp({ email, password });
   };
 
+  console.log(handleSignup);
+
   const inputList = [
     { type: "email", name: "email", ref: register },
     { type: "password", name: "password", ref: register },
