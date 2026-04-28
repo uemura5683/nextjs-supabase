@@ -451,28 +451,6 @@ next-tick@^1.1.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.1.0.tgz#1836ee30ad56d67ef281b22bd199f709449b35eb"
   integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
 
-next@^16.2.3:
-  version "16.2.3"
-  resolved "https://registry.yarnpkg.com/next/-/next-16.2.3.tgz#091b6565d46b3fb494fbb5c73d201171890787a5"
-  integrity sha512-9V3zV4oZFza3PVev5/poB9g0dEafVcgNyQ8eTRop8GvxZjV2G15FC5ARuG1eFD42QgeYkzJBJzHghNP8Ad9xtA==
-  dependencies:
-    "@next/env" "16.2.3"
-    "@swc/helpers" "0.5.15"
-    baseline-browser-mapping "^2.9.19"
-    caniuse-lite "^1.0.30001579"
-    postcss "8.4.31"
-    styled-jsx "5.1.6"
-  optionalDependencies:
-    "@next/swc-darwin-arm64" "16.2.3"
-    "@next/swc-darwin-x64" "16.2.3"
-    "@next/swc-linux-arm64-gnu" "16.2.3"
-    "@next/swc-linux-arm64-musl" "16.2.3"
-    "@next/swc-linux-x64-gnu" "16.2.3"
-    "@next/swc-linux-x64-musl" "16.2.3"
-    "@next/swc-win32-arm64-msvc" "16.2.3"
-    "@next/swc-win32-x64-msvc" "16.2.3"
-    sharp "^0.34.5"
-
 node-fetch@2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -494,15 +472,6 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
-
-postcss@8.4.31:
-  version "8.4.31"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
-  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
-  dependencies:
-    nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
 
 react-dom@^17.0.2:
   version "17.0.2"
